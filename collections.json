@@ -1,0 +1,154 @@
+{
+  "collections": [
+    {
+      "id": "for-you",
+      "title": "For You",
+      "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f9d1bee9.webp",
+      "folders": [
+        {
+          "title": "Up Next",
+          "sources": [
+            { "type": "series", "addonId": "aio-metadata", "catalogId": "trakt.upnext" }
+          ]
+        },
+        {
+          "title": "Unwatched",
+          "sources": [
+            { "type": "series", "addonId": "aio-metadata", "catalogId": "trakt.unwatched" }
+          ]
+        },
+        {
+          "title": "Calendar",
+          "sources": [
+            { "type": "series", "addonId": "aio-metadata", "catalogId": "trakt.calendar" }
+          ]
+        },
+        {
+          "title": "Recommended Movies",
+          "sources": [
+            { "type": "movie", "addonId": "aio-metadata", "catalogId": "trakt.recommendations.movies" }
+          ]
+        },
+        {
+          "title": "Recommended Shows",
+          "sources": [
+            { "type": "series", "addonId": "aio-metadata", "catalogId": "trakt.recommendations.shows" }
+          ]
+        },
+        {
+          "title": "Your Watchlist",
+          "sources": [
+            { "type": "all", "addonId": "aio-metadata", "catalogId": "trakt.watchlist" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "new-releases",
+      "title": "New Releases",
+      "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/57896c34.webp",
+      "folders": [
+        {
+          "title": "New Movies",
+          "sources": [
+            { "provider": "tmdb", "mediaType": "MOVIE", "tmdbSourceType": "DISCOVER", "filters": { "sortBy": "primary_release_date.desc", "voteCountGte": 20 } }
+          ]
+        },
+        {
+          "title": "New TV Shows",
+          "sources": [
+            { "provider": "tmdb", "mediaType": "TV", "tmdbSourceType": "DISCOVER", "filters": { "sortBy": "primary_release_date.desc", "voteCountGte": 20 } }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "trending",
+      "title": "Trending",
+      "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1934d756.webp",
+      "folders": [
+        {
+          "title": "Trending Movies",
+          "sources": [
+            { "provider": "tmdb", "mediaType": "MOVIE", "tmdbSourceType": "DISCOVER", "filters": { "sortBy": "popularity.desc", "voteCountGte": 20 } }
+          ]
+        },
+        {
+          "title": "Trending TV Shows",
+          "sources": [
+            { "provider": "tmdb", "mediaType": "TV", "tmdbSourceType": "DISCOVER", "filters": { "sortBy": "popularity.desc", "voteCountGte": 20 } }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "streaming-services",
+      "title": "Streaming Services",
+      "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/549ef3c5.webp",
+      "folders": [
+        {
+          "title": "Netflix",
+          "sources": [
+            { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.86752" },
+            { "type": "series", "addonId": "aio-metadata", "catalogId": "mdblist.86751" }
+          ]
+        },
+        {
+          "title": "Prime Video",
+          "sources": [
+            { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.86755" },
+            { "type": "series", "addonId": "aio-metadata", "catalogId": "mdblist.86753" }
+          ]
+        },
+        {
+          "title": "Disney+",
+          "sources": [
+            { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.86759" },
+            { "type": "series", "addonId": "aio-metadata", "catalogId": "mdblist.86758" }
+          ]
+        },
+        {
+          "title": "Max",
+          "sources": [
+            { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.89647" },
+            { "type": "series", "addonId": "aio-metadata", "catalogId": "mdblist.89649" }
+          ]
+        },
+        {
+          "title": "Apple TV+",
+          "sources": [
+            { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.86757" },
+            { "type": "series", "addonId": "aio-metadata", "catalogId": "mdblist.86756" }
+          ]
+        },
+        {
+          "title": "Paramount+",
+          "sources": [
+            { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.86762" },
+            { "type": "series", "addonId": "aio-metadata", "catalogId": "mdblist.86761" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "genres",
+      "title": "Genres",
+      "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6671230f.webp",
+      "folders": [
+        { "title": "Action", "sources": [ { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.91211" } ] },
+        { "title": "Drama", "sources": [ { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.91296" } ] },
+        { "title": "Comedy", "sources": [ { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.91223" } ] },
+        { "title": "Thriller", "sources": [ { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.91893" } ] },
+        { "title": "Horror", "sources": [ { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.91215" } ] },
+        { "title": "Sci-Fi & Fantasy", "sources": [ { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.91220" } ] },
+        { "title": "Romance", "sources": [ { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.128262" } ] },
+        { "title": "Animation", "sources": [ { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.116037" } ] },
+        { "title": "Documentary", "sources": [ { "type": "movie", "addonId": "aio-metadata", "catalogId": "mdblist.128051" } ] }
+      ]
+    }
+  ]
+}
