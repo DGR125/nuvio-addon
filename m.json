@@ -1,1 +1,21 @@
-
+{
+  "id": "teresa.aio-addon",
+  "version": "1.0.1",
+  "name": "Teresa AIO Unified Addon",
+  "description": "Unified AIO Metadata + Collections Addon with Hero Layout",
+  "resources": [
+    {
+      "name": "config",
+      "type": "other",
+      "url": "https://dgr125.github.io/nuvio-addon/aio-config.json"
+    },
+    {
+      "name": "collections",
+      "type": "other",
+      "url": "https://dgr125.github.io/nuvio-addon/collections.json"
+    }
+  ],
+  "types": ["movie", "series"],
+  "catalogs": [],
+  "logo": "https://i.imgur.com/5QFQK8R.png"
+}
