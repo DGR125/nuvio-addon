@@ -26,6 +26,11 @@
       "name": "collections",
       "type": "other",
       "url": "./collections.json"
+    },
+    {
+      "name": "layout",
+      "type": "ui",
+      "url": "./layout.json"
     }
   ],
 
@@ -45,29 +50,4 @@
         "Prime Video",
         "Disney+",
         "HBO Max",
-        "Hulu",
-        "Paramount+"
-      ]
-    },
-    {
-      "name": "Genres",
-      "items": [
-        "Action",
-        "Comedy",
-        "Drama",
-        "Horror",
-        "Sci-Fi",
-        "Romance"
-      ]
-    }
-  ],
-
-  "catalogs": [
-    {
-      "id": "teresa.unified.placeholder",
-      "name": "Teresa Unified Catalog",
-      "type": "movie",
-      "extra": []
-    }
-  ]
-}
+        "Hulu
