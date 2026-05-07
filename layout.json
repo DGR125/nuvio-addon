@@ -1,5 +1,25 @@
 {
-  "name": "layout",
-  "type": "ui",
-  "url": "./layout.json"
+  "layout": "hero",
+  "sections": [
+    {
+      "type": "continueWatching",
+      "enabled": true
+    },
+    {
+      "type": "newReleases",
+      "enabled": true
+    },
+    {
+      "type": "trending",
+      "enabled": true
+    },
+    {
+      "type": "collections",
+      "enabled": true
+    }
+  ],
+  "hero": {
+    "enabled": true,
+    "style": "cinematic"
+  }
 }
