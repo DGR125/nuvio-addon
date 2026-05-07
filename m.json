@@ -7,6 +7,10 @@
   "description": "Unified AIO layout with hero banners, collections, and UI configuration.",
   "logo": "https://i.imgur.com/5QFQK8R.png",
 
+  "ui": {
+    "provider": "layout"
+  },
+
   "behaviorHints": {
     "configurable": false,
     "needsConfiguration": false
