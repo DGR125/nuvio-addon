@@ -1,0 +1,42 @@
+{
+  "id": "teresa.aio-addon",
+  "version": "1.0.0",
+  "name": "Teresa AIO Unified Addon",
+  "description": "All‑in‑one Hero layout addon with collections and metadata bundled locally.",
+  "types": ["movie", "series"],
+  "catalogs": [],
+  "logo": "https://i.imgur.com/5QFQK8R.png",
+
+  "config": {
+    "layout": "hero",
+    "showHeroBanners": true,
+    "showTrending": true,
+    "showNewReleases": true,
+    "showContinueWatching": true
+  },
+
+  "collections": [
+    {
+      "name": "Streaming Services",
+      "items": [
+        "Netflix",
+        "Prime Video",
+        "Disney+",
+        "HBO Max",
+        "Hulu",
+        "Paramount+"
+      ]
+    },
+    {
+      "name": "Genres",
+      "items": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Horror",
+        "Sci‑Fi",
+        "Romance"
+      ]
+    }
+  ]
+}
