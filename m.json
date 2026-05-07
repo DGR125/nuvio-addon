@@ -1,15 +1,11 @@
 {
   "manifestVersion": 1,
-  "id": "teresa.unified",
-  "type": "ui",
-  "name": "Teresa Unified",
+  "id": "teresa.unified.collections",
+  "type": "other",
+  "name": "Teresa Unified Collections",
   "version": "1.0.0",
-  "description": "Unified AIO layout with hero banners, collections, and UI configuration.",
+  "description": "Custom streaming service and genre collections for Teresa.",
   "logo": "https://i.imgur.com/5QFQK8R.png",
-
-  "ui": {
-    "provider": "layout"
-  },
 
   "behaviorHints": {
     "configurable": false,
@@ -18,29 +14,11 @@
 
   "resources": [
     {
-      "name": "config",
-      "type": "other",
-      "url": "./aio-config.json"
-    },
-    {
       "name": "collections",
       "type": "other",
       "url": "./collections.json"
-    },
-    {
-      "name": "layout",
-      "type": "ui",
-      "url": "./layout.json"
     }
   ],
-
-  "config": {
-    "layout": "hero",
-    "showHeroBanners": true,
-    "showTrending": true,
-    "showNewReleases": true,
-    "showContinueWatching": true
-  },
 
   "collections": [
     {
@@ -50,4 +28,20 @@
         "Prime Video",
         "Disney+",
         "HBO Max",
-        "Hulu
+        "Hulu",
+        "Paramount+"
+      ]
+    },
+    {
+      "name": "Genres",
+      "items": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Horror",
+        "Sci-Fi",
+        "Romance"
+      ]
+    }
+  ]
+}
