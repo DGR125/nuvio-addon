@@ -1,21 +1,69 @@
 {
-  "id": "teresa.aio-addon",
-  "version": "1.0.1",
-  "name": "Teresa AIO Unified Addon",
-  "description": "Unified AIO Metadata + Collections Addon with Hero Layout",
+  "manifestVersion": 1,
+  "id": "teresa.unified",
+  "type": "ui",
+  "name": "Teresa Unified",
+  "version": "1.0.0",
+  "description": "Unified AIO layout with hero banners, collections, and UI configuration.",
+  "logo": "https://i.imgur.com/5QFQK8R.png",
+
+  "behaviorHints": {
+    "configurable": false,
+    "needsConfiguration": false
+  },
+
   "resources": [
     {
       "name": "config",
       "type": "other",
-      "url": "https://dgr125.github.io/nuvio-addon/aio-config.json"
+      "url": "./aio-config.json"
     },
     {
       "name": "collections",
       "type": "other",
-      "url": "https://dgr125.github.io/nuvio-addon/collections.json"
+      "url": "./collections.json"
     }
   ],
-  "types": ["movie", "series"],
-  "catalogs": [],
-  "logo": "https://i.imgur.com/5QFQK8R.png"
+
+  "config": {
+    "layout": "hero",
+    "showHeroBanners": true,
+    "showTrending": true,
+    "showNewReleases": true,
+    "showContinueWatching": true
+  },
+
+  "collections": [
+    {
+      "name": "Streaming Services",
+      "items": [
+        "Netflix",
+        "Prime Video",
+        "Disney+",
+        "HBO Max",
+        "Hulu",
+        "Paramount+"
+      ]
+    },
+    {
+      "name": "Genres",
+      "items": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Horror",
+        "Sci-Fi",
+        "Romance"
+      ]
+    }
+  ],
+
+  "catalogs": [
+    {
+      "id": "teresa.unified.placeholder",
+      "name": "Teresa Unified Catalog",
+      "type": "movie",
+      "extra": []
+    }
+  ]
 }
