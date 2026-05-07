@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "enhanced": true,
+    "fields": {
+      "rating": "Enhanced rating data",
+      "popularity": "Unified popularity score",
+      "keywords": ["custom", "unified", "metadata"],
+      "notes": "Metadata enriched by Teresa Unified Addon"
+    }
+  }
+}
