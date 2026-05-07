@@ -1,10 +1,9 @@
-{
-  "manifestVersion": 1,
-  "id": "teresa.unified.collections",
-  "type": "other",
-  "name": "Teresa Unified Collections",
+manifestVersion": 1,
+  "id": "teresa.unified.meta",
+  "type": "meta",
+  "name": "Teresa Unified Metadata",
   "version": "1.0.0",
-  "description": "Custom streaming service and genre collections for Teresa.",
+  "description": "Enhanced metadata for movies and series, powered by Teresa's unified addon.",
   "logo": "https://i.imgur.com/5QFQK8R.png",
 
   "behaviorHints": {
@@ -14,34 +13,13 @@
 
   "resources": [
     {
-      "name": "collections",
-      "type": "other",
-      "url": "./collections.json"
+      "name": "meta",
+      "type": "meta",
+      "url": "./metadata.json"
     }
   ],
 
-  "collections": [
-    {
-      "name": "Streaming Services",
-      "items": [
-        "Netflix",
-        "Prime Video",
-        "Disney+",
-        "HBO Max",
-        "Hulu",
-        "Paramount+"
-      ]
-    },
-    {
-      "name": "Genres",
-      "items": [
-        "Action",
-        "Comedy",
-        "Drama",
-        "Horror",
-        "Sci-Fi",
-        "Romance"
-      ]
-    }
-  ]
+  "types": ["movie", "series"],
+
+  "catalogs": []
 }
